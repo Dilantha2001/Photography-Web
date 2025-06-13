@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap");
+
+.font-muellerhoff {
+  font-family: "Herr Von Muellerhoff", cursive;
+}
+
+.font-noto-serif {
+  font-family: "Noto Serif Display", serif;
+}
