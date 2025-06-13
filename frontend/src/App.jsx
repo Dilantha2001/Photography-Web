@@ -1,13 +1,15 @@
 import ExpereancePage from "./componnets/ExpereancePage";
 import Home from "./home/Home";
-import { Routes } from "react-router";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <ExpereancePage />
-      <Home />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/experence" element={<ExpereancePage />} />
+      </Routes>
+    </Router>
   );
 }
 

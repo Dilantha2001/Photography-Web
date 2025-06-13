@@ -8,3 +8,16 @@
 .font-noto-serif {
   font-family: "Noto Serif Display", serif;
 }
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.scroll-animation {
+  animation: scroll-left 20s linear infinite;
+}
