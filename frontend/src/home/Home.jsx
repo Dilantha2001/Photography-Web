@@ -1,8 +1,9 @@
 import React from "react";
 import Navigation from "../componnets/Navigation";
 import Footer from "../componnets/Footer";
-import Container from "./Container";
+
 import ContainerTow from "./ContainerTow";
+import Container from "./container";
 
 function Home() {
   return (
