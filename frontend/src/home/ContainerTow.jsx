@@ -30,7 +30,7 @@ function ContainerTow() {
         </div>
       </div>
 
-      <div className="flex bg-red-500 h-[500px]">
+      <div className="flex  h-[1000px] gap-10">
         <div className="bg-red-300 p-4 text-center 1fr">
           <p className="max-w-[600px] text-xl">
             Based in Colorado and serving Vail, Aspen, Telluride, and beyond, I
@@ -49,10 +49,10 @@ function ContainerTow() {
           </button>
         </div>
 
-        <div className="bg-yellow-300 p-4 text-center 2fr">
-          <div className="flex justify-center items-start mt-[50px] z-10 relative">
-            <div className="w-[550px] h-[800px] rounded-lg text-white shadow-lg overflow-hidden relative">
-              <div className="relative h-full top-10">
+        <div className=" text-center 2fr">
+          <div className="flex justify-center items-start  z-10 relative">
+            <div className="w-[550px] h-[1000px] rounded-lg text-white shadow-lg overflow-hidden relative">
+              <div className="relative h-full ">
                 <div
                   className="flex transition-transform duration-700 ease-in-out"
                   style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -65,29 +65,11 @@ function ContainerTow() {
                       className="w-[550px] h-full object-cover rounded-lg flex-shrink-0"
                     />
                   ))}
+
+                  <div className="bg-red-500 w-[200px] h-[300px] absolute z-55"></div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="flex justify-center mt-4 gap-4">
-            <button
-              onClick={() =>
-                setCurrentIndex((prev) =>
-                  prev > 0 ? prev - 1 : images.length - 1
-                )
-              }
-              className="bg-gray-500 text-white px-4 py-2 rounded"
-            >
-              Prev
-            </button>
-            <button
-              onClick={() =>
-                setCurrentIndex((prev) => (prev + 1) % images.length)
-              }
-              className="bg-gray-500 text-white px-4 py-2 rounded"
-            >
-              Next
-            </button>
           </div>
         </div>
       </div>
