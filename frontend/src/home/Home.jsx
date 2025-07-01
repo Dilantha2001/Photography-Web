@@ -4,6 +4,9 @@ import Footer from "../componnets/Footer";
 
 import ContainerTow from "./ContainerTow";
 import Container from "./container";
+import CoverImage from "./CoverImage";
+import PhotoContainer from "./PhotoContainer";
+import Introduction from "./Introduction";
 
 function Home() {
   return (
@@ -11,6 +14,9 @@ function Home() {
       <Navigation />
       <Container />
       <ContainerTow />
+      <CoverImage />
+      <PhotoContainer />
+      <Introduction />
       <Footer />
     </>
   );

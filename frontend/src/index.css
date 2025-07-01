@@ -12,3 +12,13 @@
 .scroll-animation {
   animation: scroll-left 20s linear infinite;
 }
+
+.font-noto-serif {
+  font-family: "Noto Serif Display", serif;
+}
+
+/* style.css */
+.noto-serif-display {
+  font-family: "Noto Serif Display", serif;
+  font-weight: 300;
+}

@@ -17,22 +17,31 @@ function ContainerTow() {
   }, []);
 
   return (
-    <div className="h-[600px] w-full">
-      <div className="flex ">
-        <div className="bg-blue-300 p-4 text-8xl uppercase 2fr">
-          your there now your always will be
+    <div className="h-[1000px] w-full bg-amber-50 ">
+      <div className="flex justify-around ">
+        <div className=" p-4  uppercase flex-3 ">
+          <p className="font-noto-serif  font-[100] text-[66px] text-[rgba(33,33,33,1)]">
+            your were fully there. <br />
+          </p>
+          <h2 className="font-noto-serif  font-extralight text-[80px] italic">
+            now your always <br /> will be
+          </h2>
         </div>
-        <div className="bg-green-300 p-4 text-center 1fr">
-          <p className="max-w-[300px] float-right pr-[60px]">
+        <div className="bg-green-300 p-4 text-center  flex-1">
+          <p className="max-w-[300px] float-right pr-[60px] ">
             An artful & refined WEDDING photography experience designed to help
             you slow down and feel it all.
           </p>
         </div>
       </div>
 
-      <div className="flex  h-[1000px] gap-10">
-        <div className="bg-red-300 p-4 text-center 1fr">
-          <p className="max-w-[600px] text-xl">
+      <div className="flex  h-[800px] gap-5 ml-10 ">
+        <div className=" p-4 text-center flex-1/7">
+          <h3 className="uppercase mb-10 font-bold mt-4">
+            Emotive, Light-Filled Wedding <br /> Photography in Colorado
+          </h3>
+          <br />
+          <p className="max-w-[600px] text-xl px-15 ">
             Based in Colorado and serving Vail, Aspen, Telluride, and beyond, I
             document celebrations with a refined, documentary-style approach—
             inviting ease, presence, and connection.
@@ -41,20 +50,24 @@ function ContainerTow() {
             Every image we create is rooted in intention: Soft movement, honest
             emotion, natural light, and a sense of place.
             <br />
-            <br /> Your job is to be fully there. Mine is to help you remember
-            what that felt like.
+            <br />
+            <br /> Your job is to be fully there.
+            <br /> Mine is to help you remember what that felt like.
           </p>
           <button className="bg-[#c7c4c4] py-4 px-20 cursor-pointer uppercase mt-20">
             let get started
           </button>
         </div>
 
-        <div className=" text-center 2fr">
-          <div className="flex justify-center items-start  z-10 relative">
-            <div className="w-[550px] h-[1000px] rounded-lg text-white shadow-lg overflow-hidden relative">
-              <div className="relative h-full ">
+        <div className=" flex-2 mt-[-150px]">
+          <div className="  z-10 relative">
+            <div className="w-[550px] h-[780px]  text-white shadow-lg overflow-hidden relative">
+              <div className="bg-red-500 w-[300px] h-[350px] mt-[70%] ml-[90%] absolute   z-110 ">
+                aaa
+              </div>
+              <div className="relative h-full flex  ">
                 <div
-                  className="flex transition-transform duration-700 ease-in-out"
+                  className="flex transition-transform duration-700 ease-in-out "
                   style={{ transform: `translateX(-${currentIndex * 100}%)` }}
                 >
                   {images.map((img, index) => (
@@ -65,8 +78,6 @@ function ContainerTow() {
                       className="w-[550px] h-full object-cover rounded-lg flex-shrink-0"
                     />
                   ))}
-
-                  <div className="bg-red-500 w-[200px] h-[300px] absolute z-55"></div>
                 </div>
               </div>
             </div>
