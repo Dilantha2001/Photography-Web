@@ -30,10 +30,11 @@ function CoverImage() {
       </div>
 
       {/* Header */}
-      <div className="relative z-10 p-8 text-black text-center">
-        <h1 className="text-4xl font-bold">WHITNEY RAR</h1>
+      <div className="relative z-10 p-4 md:p-8 text-black text-center">
+        <h1 className="text-3xl md:text-4xl font-noto-serif font-light">WHITNEY RAR</h1>
       </div>
-      <p className="mt-[-20px] font-poppins font-light text-[120px] text-[#161515] absolute z-30 leading-none pl-[200px]">
+      
+      <p className="mt-[-10px] md:mt-[-20px] font-noto-serif font-light text-[60px] md:text-[90px] lg:text-[120px] italic text-[#161515] absolute z-30 leading-none text-center w-full px-4">
         YOUR WEDDING
         <br />
         PHOTOGRAPHY
@@ -41,13 +42,13 @@ function CoverImage() {
         JOURNEY
       </p>
 
-      {/* Slide Shower in Red Box */}
-      <div className="flex justify-center items-start mt-[50px] z-10 relative">
-        <div className=" w-[550px] h-[800px] rounded-lg text-white  shadow-lg overflow-hidden relative">
+      {/* Slider */}
+      <div className="flex justify-center items-start mt-[300px] md:mt-[400px] lg:mt-[50px] z-10 relative px-4">
+        <div className="w-full max-w-[300px] md:max-w-[450px] lg:w-[550px] h-[400px] md:h-[600px] lg:h-[800px] rounded-lg text-white shadow-lg overflow-hidden relative">
           {/* Slider wrapper */}
-          <div className="relative h-full top-10">
+          <div className="relative h-full top-0 md:top-10">
             <div
-              className="flex transition-transform duration-700 ease-in-out"
+              className="flex transition-transform duration-700 ease-in-out w-full"
               style={{ transform: `translateX(-${currentIndex * 100}%)` }}
             >
               {images.map((img, index) => (
@@ -55,12 +56,10 @@ function CoverImage() {
                   key={index}
                   src={img}
                   alt={`Couple ${index + 1}`}
-                  className="w-[550px] h-full object-cover rounded-lg flex-shrink-0"
+                  className="w-full max-w-[300px] md:max-w-[450px] lg:w-[550px] h-[400px] md:h-[600px] lg:h-[800px] object-cover rounded-lg flex-shrink-0"
                 />
               ))}
             </div>
-
-            {/* Navigation Buttons */}
           </div>
         </div>
       </div>

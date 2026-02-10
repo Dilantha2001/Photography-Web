@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import inquireHero from "../assets/bride.jpg";
 import inquireDetail from "../assets/bride2.jpg";
-
+import Navigation from "../componnets/Navigation";
+import Footer from "../componnets/Footer";
 function Inquire() {
   const [formData, setFormData] = useState({
     name: "",
@@ -45,6 +46,7 @@ function Inquire() {
   return (
     <>
       {/* Hero Section */}
+      <Navigation />
       <div className="bg-white pt-20 pb-0 px-0">
         <div className="h-[600px] bg-center bg-cover relative grayscale-50">
           <img
@@ -328,6 +330,7 @@ function Inquire() {
           after the day has passed.
         </p>
       </div>
+      <Footer />
     </>
   );
 }

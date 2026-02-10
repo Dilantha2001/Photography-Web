@@ -8,14 +8,14 @@ const images = [mark1, mark2, mark3, mark4, mark5];
 
 function Container() {
   return (
-    <div className="overflow-hidden h-[500px] w-full relative text-center">
-      <div className="flex w-1/2 scroll-animation">
+    <div className="overflow-hidden h-[300px] md:h-[400px] lg:h-[500px] w-full relative text-center">
+      <div className="flex w-full md:w-3/4 lg:w-1/2 scroll-animation">
         {[...images, ...images].map((img, index) => (
           <img
             key={index}
             src={img}
             alt={`slide-${index}`}
-            className="w-[50vw] h-[500px] object-cover"
+            className="w-full md:w-[40vw] lg:w-[25vw] h-[300px] md:h-[400px] lg:h-[500px] object-cover"
           />
         ))}
       </div>

@@ -3,18 +3,20 @@ import bride2 from "../assets/bride2.jpg";
 function Final() {
   return (
     <div
-      className="relative  overflow-hidden bg-fixed  bg-cover top-145  "
+      className="relative overflow-hidden bg-fixed bg-cover bg-center"
       style={{
         backgroundImage: `url(${table})`,
         backgroundAttachment: "fixed",
+        height: "auto",
+        minHeight: "600px"
       }}
     >
-      <div className=" uppercase text-9xl absolute z-50 ">
-        <h1 className="p-[25%]">inquery to get started</h1>
+      <div className="uppercase text-4xl md:text-6xl lg:text-9xl relative z-50 py-20 px-4 text-center font-noto-serif font-light text-white">
+        <h1>Inquiry to Get Started</h1>
       </div>
-      <div className=" w-1/2 h-auto rounded-lg text-white  shadow-lg overflow-hidden z-30 float-end">
-        <div className="flex justify-end items-center  ">
-          <img src={bride2} alt="" />
+      <div className="w-full lg:w-1/2 h-auto rounded-lg text-white shadow-lg overflow-hidden z-30 lg:absolute lg:right-0 lg:top-0 lg:bottom-0">
+        <div className="flex justify-end items-center">
+          <img src={bride2} alt="" className="w-full h-[300px] md:h-[500px] lg:h-full object-cover" />
         </div>
       </div>
     </div>

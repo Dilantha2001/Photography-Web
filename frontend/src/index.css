@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  --font-noto-serif: "Noto Serif Display", serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
 @keyframes scroll-left {
   0% {
     transform: translateX(0%);
@@ -13,12 +18,326 @@
   animation: scroll-left 20s linear infinite;
 }
 
-.font-noto-serif {
-  font-family: "Noto Serif Display", serif;
+/* Responsive Base Styles */
+* {
+  box-sizing: border-box;
 }
 
-/* style.css */
-.noto-serif-display {
-  font-family: "Noto Serif Display", serif;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-poppins);
+  overflow-x: hidden;
+}
+
+/* Responsive Typography */
+@media (max-width: 640px) {
+  .responsive-text-6xl {
+    font-size: 2.5rem;
+  }
+
+  .responsive-text-5xl {
+    font-size: 2rem;
+  }
+
+  .responsive-text-4xl {
+    font-size: 1.75rem;
+  }
+
+  .responsive-text-3xl {
+    font-size: 1.5rem;
+  }
+
+  .responsive-text-2xl {
+    font-size: 1.25rem;
+  }
+
+  .responsive-text-xl {
+    font-size: 1rem;
+  }
+}
+
+/* Responsive Heights */
+@media (max-width: 768px) {
+  .h-screen-md {
+    height: 50vh;
+  }
+
+  .responsive-h-500 {
+    height: 350px;
+  }
+
+  .responsive-h-800 {
+    height: 600px;
+  }
+
+  .responsive-h-600 {
+    height: 400px;
+  }
+}
+
+@media (max-width: 640px) {
+  .responsive-h-500-sm {
+    height: 250px;
+  }
+
+  .responsive-h-800-sm {
+    height: 500px;
+  }
+
+  .responsive-h-600-sm {
+    height: 350px;
+  }
+
+  .responsive-h-900 {
+    height: 500px;
+  }
+}
+
+/* Responsive Widths */
+@media (max-width: 1024px) {
+  .responsive-w-900 {
+    width: 90%;
+  }
+
+  .responsive-w-550 {
+    width: 100%;
+  }
+
+  .responsive-w-500 {
+    width: 100%;
+  }
+
+  .responsive-w-350 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-w-900-md {
+    width: 95%;
+  }
+
+  .responsive-w-600 {
+    width: 100%;
+  }
+
+  .responsive-w-60 {
+    width: 80%;
+  }
+}
+
+/* Responsive Margins & Padding */
+@media (max-width: 768px) {
+  .responsive-mt-neg150 {
+    margin-top: -50px;
+  }
+
+  .responsive-mt-neg50 {
+    margin-top: -20px;
+  }
+
+  .responsive-mt-neg80 {
+    margin-top: -30px;
+  }
+
+  .responsive-pt-60 {
+    padding-top: 2rem;
+  }
+
+  .responsive-px-14 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .responsive-gap-20 {
+    gap: 1rem;
+  }
+
+  .responsive-ml-10 {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .responsive-mt-neg150-sm {
+    margin-top: 0;
+  }
+
+  .responsive-mt-neg50-sm {
+    margin-top: 0;
+  }
+
+  .responsive-mt-neg80-sm {
+    margin-top: 0;
+  }
+
+  .responsive-pt-60-sm {
+    padding-top: 1.5rem;
+  }
+
+  .responsive-px-14-sm {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .responsive-gap-20-sm {
+    gap: 0.75rem;
+  }
+
+  .responsive-ml-10-sm {
+    margin-left: 0.5rem;
+  }
+}
+
+/* Flex Layout Responsive */
+@media (max-width: 1024px) {
+  .responsive-flex-wrap-lg {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-flex-wrap-md {
+    flex-wrap: wrap;
+  }
+
+  .responsive-flex-col-md {
+    flex-direction: column;
+  }
+
+  .responsive-flex-1-100 {
+    flex: 1 1 100%;
+  }
+}
+
+/* Navigation Responsive */
+@media (max-width: 768px) {
+  .responsive-nav-hide {
+    display: none;
+  }
+
+  .responsive-nav-show {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #ebeaea;
+    padding: 1rem;
+    z-index: 100;
+  }
+}
+
+/* Image Responsive */
+@media (max-width: 768px) {
+  .responsive-img-full-md {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .responsive-img-full-sm {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Button Responsive */
+@media (max-width: 768px) {
+  .responsive-btn-full-md {
+    width: 100%;
+    text-align: center;
+  }
+
+  .responsive-px-20 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .responsive-py-4 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+}
+
+/* Scroll Animation Responsive */
+@media (max-width: 768px) {
+  .scroll-animation {
+    animation: scroll-left 30s linear infinite;
+  }
+
+  .responsive-w-50vw {
+    width: 80vw;
+  }
+}
+
+/* Container Responsive */
+.responsive-container {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .responsive-container {
+    max-width: 640px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .responsive-container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .responsive-container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .responsive-container {
+    max-width: 1280px;
+  }
+}
+
+/* Hide scrollbar but keep functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Print Styles */
+@media print {
+  .no-print {
+    display: none;
+  }
+}
+
+/* Font Noto Serif */
+.font-noto-serif {
+  font-family: var(--font-noto-serif);
+}
+
+/* Subtle Paragraph Text Style */
+.subtle-text {
+  font-family: var(--font-noto-serif);
   font-weight: 300;
+  color: #6b7280; /* gray-500 */
+  line-height: 1.75;
+  letter-spacing: 0.025em;
 }

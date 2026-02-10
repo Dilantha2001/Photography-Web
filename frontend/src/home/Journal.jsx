@@ -6,6 +6,8 @@ import blog4 from "../assets/bride14.jpg";
 import blog5 from "../assets/bride15.jpg";
 import blog6 from "../assets/bride16.jpg";
 
+import Navigation from "../componnets/Navigation";
+import Footer from "../componnets/Footer";
 function Journal() {
   const [selectedCategory, setSelectedCategory] = useState("all");
 
@@ -88,6 +90,7 @@ function Journal() {
   return (
     <>
       {/* Hero Section */}
+      <Navigation />
       <div className="bg-white pt-32 pb-20 px-[5%]">
         <div className="max-w-7xl mx-auto">
           <h1 className="font-noto-serif font-light text-6xl italic text-center text-gray-800 mb-6">
@@ -168,6 +171,7 @@ function Journal() {
           </button>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

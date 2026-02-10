@@ -17,31 +17,31 @@ function ContainerTow() {
   }, []);
 
   return (
-    <div className="h-[1000px] w-full bg-amber-50 ">
-      <div className="flex justify-around ">
-        <div className=" p-4  uppercase flex-3 ">
-          <p className="font-noto-serif  font-[100] text-[66px] text-[rgba(33,33,33,1)]">
+    <div className="h-auto md:h-[900px] lg:h-[1000px] w-full bg-amber-50 py-10 md:py-0">
+      <div className="flex flex-col md:flex-row justify-around px-4 md:px-8">
+        <div className="p-4 uppercase flex-1 text-center md:text-left mb-8 md:mb-0">
+          <p className="font-noto-serif font-[100] text-3xl md:text-5xl lg:text-[66px] text-[rgba(33,33,33,1)]">
             your were fully there. <br />
           </p>
-          <h2 className="font-noto-serif  font-extralight text-[80px] italic">
+          <h2 className="font-noto-serif font-extralight text-2xl md:text-4xl lg:text-[80px] italic mt-4">
             now your always <br /> will be
           </h2>
         </div>
-        <div className="p-4 text-center  flex-1">
-          <p className="max-w-[300px] float-right pr-[60px] ">
+        <div className="p-4 text-center md:text-left flex-1">
+          <p className="max-w-[300px] md:float-none lg:float-right pr-0 md:pr-[60px]">
             An artful & refined WEDDING photography experience designed to help
             you slow down and feel it all.
           </p>
         </div>
       </div>
 
-      <div className="flex  h-[800px] gap-5 ml-10 ">
-        <div className=" p-4 text-center flex-1/7">
-          <h3 className="uppercase mb-10 font-bold mt-4">
+      <div className="flex flex-col lg:flex-row h-auto lg:h-[800px] gap-5 ml-0 md:ml-10 px-4 md:px-8">
+        <div className="p-4 text-center flex-1 lg:w-1/2 mx-auto">
+          <h3 className="uppercase mb-10 font-bold mt-4 text-lg md:text-xl">
             Emotive, Light-Filled Wedding <br /> Photography in Colorado
           </h3>
           <br />
-          <p className="max-w-[600px] text-xl px-15 ">
+          <p className="max-w-[1000px] text-center md:text-xl px-4 md:px-15">
             Based in Colorado and serving Vail, Aspen, Telluride, and beyond, I
             document celebrations with a refined, documentary-style approach—
             inviting ease, presence, and connection.
@@ -54,18 +54,18 @@ function ContainerTow() {
             <br /> Your job is to be fully there.
             <br /> Mine is to help you remember what that felt like.
           </p>
-          <button className="bg-[#c7c4c4] py-4 px-20 cursor-pointer uppercase mt-20">
+          <button className="bg-[#c7c4c4] py-3 md:py-4 px-8 md:px-20 cursor-pointer uppercase mt-8 md:mt-20">
             let get started
           </button>
         </div>
 
-        <div className=" flex-2 mt-[-150px]">
-          <div className="  z-10 relative">
-            <div className="w-[550px] h-[780px]  text-white shadow-lg overflow-hidden relative">
+        <div className="flex-1 lg:mt-[-150px] mt-4">
+          <div className="z-10 relative">
+            <div className="w-full md:w-[450px] lg:w-[550px] h-[400px] md:h-[600px] lg:h-[780px] text-white shadow-lg overflow-hidden relative mx-auto">
               
-              <div className="relative h-full flex  ">
+              <div className="relative h-full flex">
                 <div
-                  className="flex transition-transform duration-700 ease-in-out "
+                  className="flex transition-transform duration-700 ease-in-out w-full"
                   style={{ transform: `translateX(-${currentIndex * 100}%)` }}
                 >
                   {images.map((img, index) => (
@@ -73,7 +73,7 @@ function ContainerTow() {
                       key={index}
                       src={img}
                       alt={`Couple ${index + 1}`}
-                      className="w-[550px] h-full object-cover rounded-lg flex-shrink-0"
+                      className="w-full md:w-[450px] lg:w-[550px] h-[400px] md:h-[600px] lg:h-[780px] object-cover rounded-lg flex-shrink-0"
                     />
                   ))}
                 </div>

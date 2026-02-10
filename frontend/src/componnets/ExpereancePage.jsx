@@ -6,7 +6,7 @@ import Containertwo from "./Containertwo";
 import CoverImage from "./CoverImage";
 import Coverimagetwo from "./Coverimagetwo";
 import Final from "./Final";
-import Footer from "./Footer";
+
 import Navigation from "./Navigation";
 import Portfolio from "./Portfolio";
 
@@ -22,7 +22,6 @@ function ExpereancePage() {
       <Portfolio />
       <Final />
       <ContactForm />
-      <Footer />
     </>
   );
 }
