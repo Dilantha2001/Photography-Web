@@ -8,15 +8,19 @@ function Navigation() {
         <li className="border-r border-black pr-10 hover:underline">
           <Link to="/">Home</Link>
         </li>
-        <li className="border-r border-black pr-10 hover:underline">Name</li>
+
         <li className="border-r border-black pr-10 hover:underline">
           Portfolio
         </li>
         <li className="border-r border-black pr-10 hover:underline">
           <Link to="/experence">Experence</Link>
         </li>
-        <li className="border-r border-black pr-10 hover:underline">Journal</li>
-        <li className="hover:underline">Inquire</li>
+        <li className="border-r border-black pr-10 hover:underline">
+          <Link to="/Journal">Journal</Link>
+        </li>
+        <li className="hover:underline">
+          <Link to="/inquary">Inquary</Link>
+        </li>
       </ul>
     </nav>
   );

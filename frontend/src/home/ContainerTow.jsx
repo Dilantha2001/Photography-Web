@@ -27,7 +27,7 @@ function ContainerTow() {
             now your always <br /> will be
           </h2>
         </div>
-        <div className="bg-green-300 p-4 text-center  flex-1">
+        <div className="p-4 text-center  flex-1">
           <p className="max-w-[300px] float-right pr-[60px] ">
             An artful & refined WEDDING photography experience designed to help
             you slow down and feel it all.
@@ -62,9 +62,7 @@ function ContainerTow() {
         <div className=" flex-2 mt-[-150px]">
           <div className="  z-10 relative">
             <div className="w-[550px] h-[780px]  text-white shadow-lg overflow-hidden relative">
-              <div className="bg-red-500 w-[300px] h-[350px] mt-[70%] ml-[90%] absolute   z-110 ">
-                aaa
-              </div>
+              
               <div className="relative h-full flex  ">
                 <div
                   className="flex transition-transform duration-700 ease-in-out "
