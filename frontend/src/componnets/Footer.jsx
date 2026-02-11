@@ -1,10 +1,11 @@
 import pic3 from "../assets/pic6.jpg";
 import pic4 from "../assets/pic4.jpg";
 import pic5 from "../assets/pic5.jpg";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="bg-amber-100 border-t border-gray-200 py-16 md:py-24">
+    <footer className="bg-amber-100 border-t border-gray-200 py-10 md:py-24">
       <div className="max-w-7xl mx-auto px-[5%]">
         {/* Brand Name */}
         <div className="text-center mb-12">
@@ -17,33 +18,38 @@ function Footer() {
         <div className="text-center mb-16">
           <ul className="flex flex-wrap justify-center gap-6 md:gap-10 uppercase text-xs md:text-sm font-noto-serif font-light tracking-widest text-gray-700">
             <li>
-              <a href="/" className="hover:text-gray-900 transition-colors">
+              <Link to="/" className="hover:text-gray-900 transition-colors">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="text-gray-300">•</li>
             <li>
-              <a href="/about" className="hover:text-gray-900 transition-colors">
+              <Link
+                to="/about"
+                className="hover:text-gray-900 transition-colors"
+              >
                 About
-              </a>
+              </Link>
             </li>
             <li className="text-gray-300">•</li>
             <li>
-              <a href="/experience" className="hover:text-gray-900 transition-colors">
+              <Link
+                to="/experience"
+                className="hover:text-gray-900 transition-colors"
+              >
                 The Experience
-              </a>
+              </Link>
             </li>
             <li className="text-gray-300">•</li>
-            <li>
-              <a href="/galleries" className="hover:text-gray-900 transition-colors">
-                Galleries
-              </a>
-            </li>
+          
             <li className="text-gray-300">•</li>
             <li>
-              <a href="/journal" className="hover:text-gray-900 transition-colors">
+              <Link
+                to="/journal"
+                className="hover:text-gray-900 transition-colors"
+              >
                 Journal
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -87,7 +93,8 @@ function Footer() {
           {/* Right - Location */}
           <div className="text-center lg:text-right">
             <p className="font-noto-serif font-light text-base md:text-lg text-gray-600 leading-relaxed">
-              based in <span className="font-semibold text-gray-800">VAIL | CO</span>
+              based in{" "}
+              <span className="font-semibold text-gray-800">VAIL | CO</span>
               <br />
               <span className="italic text-gray-500">
                 romanticizing life in beautiful locations around the globe
@@ -98,14 +105,14 @@ function Footer() {
 
         {/* CTA Button */}
         <div className="flex justify-center mb-12">
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="bg-gray-700 text-white py-4 px-12 uppercase text-sm 
               font-noto-serif font-light tracking-wider hover:bg-gray-800 
               transition-colors duration-300"
           >
             Let's Get Started
-          </a>
+          </Link>
         </div>
 
         {/* Email & Social */}
@@ -126,7 +133,10 @@ function Footer() {
               Instagram
             </a>
             <span className="text-gray-300">•</span>
-            <a href="https://pinterest.com" className="hover:text-gray-900 transition-colors">
+            <a
+              href="https://pinterest.com"
+              className="hover:text-gray-900 transition-colors"
+            >
               Pinterest
             </a>
           </div>

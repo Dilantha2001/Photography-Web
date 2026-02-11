@@ -4,11 +4,9 @@ import logo11 from "../assets/logo11.png";
 import logo12 from "../assets/logo12.jpeg";
 import logo13 from "../assets/logo13.png";
 
-
 function Portfolio() {
   return (
     <>
-     
       <div className="w-full h-auto bg-amber-50 pb-10">
         <div className="flex flex-col items-center justify-center gap-6 md:gap-10 pt-10 md:pt-10 px-4">
           <h1 className="text-4xl md:text-6xl lg:text-7xl uppercase mt-10 font-noto-serif italic text-center text-gray-800">
@@ -55,7 +53,6 @@ function Portfolio() {
           <img src={logo13} alt="" className="w-24 md:w-32" />
         </div>
       </div>
-    
     </>
   );
 }

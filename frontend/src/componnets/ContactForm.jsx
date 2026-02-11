@@ -1,6 +1,6 @@
 function ContactForm() {
   return (
-    <div className="bg-gray-200 h-[700px] w-full relative top-100 z-100 pt-20">
+    <div className="bg-gray-200 h-[700px] w-full relative  z-100 pt-20">
       <div className="max-w-5xl mx-auto p-6 bg-gray-200">
         <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>

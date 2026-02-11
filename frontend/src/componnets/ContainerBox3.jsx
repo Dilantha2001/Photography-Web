@@ -15,9 +15,9 @@ function ContainerBox3() {
       </div>
 
       {/* Testimonial 1 */}
-      <div className="flex flex-col lg:flex-row items-center justify-center mt-8 md:mt-15 gap-8 px-4">
-        <div className="w-full max-w-[280px] md:max-w-[350px] h-[300px] md:h-[500px]">
-          <img className="bg-cover w-full h-full" src={pic3} alt="" />
+      <div className="flex flex-col pt-15 lg:flex-row items-center justify-center mt-8 md:mt-15 gap-8 px-4">
+        <div className="w-full max-w-[280px] md:max-w-[350px]  h-[400px] md:h-[500px] overflow-hidden">
+          <img className="w-full h-full object-cover" src={pic3} alt="" />
         </div>
         <div className="text-center lg:text-left px-4">
           <br />
@@ -39,7 +39,7 @@ function ContainerBox3() {
       </div>
 
       {/* Testimonial 2 */}
-      <div className="flex flex-col lg:flex-row lg:justify-end lg:px-30  gap-8 px-4 ">
+      <div className="flex flex-col lg:flex-row lg:justify-end lg:px-30  gap-8 px-4  ">
         <div className="order-2 lg:order-1 text-center lg:text-left px-4">
           <h3 className="text-lg md:text-xl font-noto-serif font-light uppercase italic text-center text-gray-700">
             "Our experience was the definition of luxury <br /> — we felt like
@@ -56,8 +56,8 @@ function ContainerBox3() {
             <span className="text-gray-700 font-light"> - KELSEY & IAN</span>
           </p>
         </div>
-        <div className="order-1 lg:order-2 w-full max-w-[280px] md:max-w-[350px] h-[300px] md:h-[500px]">
-          <img className="bg-cover w-full h-full" src={pic2} alt="" />
+        <div className="order-1 lg:order-2  w-full max-w-[280px]  md:max-w-[350px] h-[400px] md:h-[500px] overflow-hidden">
+          <img className="w-full h-full object-cover" src={pic2} alt="" />
         </div>
       </div>
 
