@@ -37,20 +37,20 @@ function ContainerTow() {
 
       <div className="flex flex-col lg:flex-row h-auto lg:h-[800px] gap-5 ml-0 md:ml-10 px-4 md:px-8">
         <div className="p-4 text-center flex-1 lg:w-1/2 mx-auto">
-          <h3 className="uppercase mb-10 font-bold mt-4 text-lg md:text-xl">
-            Emotive, Light-Filled Wedding <br /> Photography in Colorado
+          <h3 className="uppercase mb-5  mt-4 text-lg md:text-xl">
+            Emotive, Light-Filled Wedding Photography in Colorado
           </h3>
-          <br />
+        
           <p className="max-w-[1000px] text-center md:text-xl px-4 md:px-15">
             Based in Colorado and serving Vail, Aspen, Telluride, and beyond, I
             document celebrations with a refined, documentary-style approach—
             inviting ease, presence, and connection.
             <br />
-            <br />
+            
             Every image we create is rooted in intention: Soft movement, honest
             emotion, natural light, and a sense of place.
             <br />
-            <br />
+            
             <br /> Your job is to be fully there.
             <br /> Mine is to help you remember what that felt like.
           </p>
@@ -59,7 +59,7 @@ function ContainerTow() {
           </button>
         </div>
 
-        <div className="flex-1 lg:mt-[-150px] mt-4">
+        <div className="flex-1 lg:mt-[-250px] mt-4">
           <div className="z-10 relative">
             <div className="w-full md:w-[450px] lg:w-[550px] h-[400px] md:h-[600px] lg:h-[780px] text-white shadow-lg overflow-hidden relative mx-auto">
               
@@ -73,7 +73,7 @@ function ContainerTow() {
                       key={index}
                       src={img}
                       alt={`Couple ${index + 1}`}
-                      className="w-full md:w-[450px] lg:w-[550px] h-[400px] md:h-[600px] lg:h-[780px] object-cover rounded-lg flex-shrink-0"
+                      className="w-full md:w-[450px] lg:w-[550px] h-[400px] md:h-[600px] lg:h-[700px] object-cover rounded-lg flex-shrink-0"
                     />
                   ))}
                 </div>

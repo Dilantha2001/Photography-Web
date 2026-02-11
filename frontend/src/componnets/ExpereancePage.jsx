@@ -9,7 +9,7 @@ import Final from "./Final";
 
 import Navigation from "./Navigation";
 import Portfolio from "./Portfolio";
-
+import Footer from "./Footer";
 function ExpereancePage() {
   return (
     <>
@@ -22,6 +22,7 @@ function ExpereancePage() {
       <Portfolio />
       <Final />
       <ContactForm />
+      <Footer />
     </>
   );
 }

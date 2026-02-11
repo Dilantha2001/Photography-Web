@@ -12,7 +12,7 @@ function Containertwo() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 h-auto mt-10 md:mt-[300px] bg-white pt-10 text-[#474646] px-4">
         {/* Column 1 */}
         <div className="flex flex-col items-center border-r-0 md:border-r-2 border-gray-300 pb-8 md:pb-0">
-          <div className="w-full max-w-[250px] md:w-[300px] h-[250px] md:h-[400px]">
+          <div className="w-full max-w-[250px] md:w-[300px] h-[350px] md:h-[400px]">
             <img className="bg-cover w-full h-full" src={pic1} alt="" />
           </div>
           <div className="text-center px-4">
@@ -36,7 +36,7 @@ function Containertwo() {
 
         {/* Column 2 */}
         <div className="flex flex-col items-center border-r-0 lg:border-r-2 border-gray-300 pb-8 md:pb-0">
-          <div className="w-full max-w-[250px] md:w-[300px] h-[250px] md:h-[400px]">
+          <div className="w-full max-w-[250px] md:w-[300px] h-[350px] md:h-[400px]">
             <img className="bg-cover w-full h-full" src={pic2} alt="" />
           </div>
           <div className="text-center px-4">
@@ -56,7 +56,7 @@ function Containertwo() {
 
         {/* Column 3 */}
         <div className="flex flex-col items-center pb-8">
-          <div className="w-full max-w-[250px] md:w-[300px] h-[250px] md:h-[400px]">
+          <div className="w-full max-w-[250px] md:w-[300px] h-[350px] md:h-[400px]">
             <img className="bg-cover w-full h-full" src={pic4} alt="" />
           </div>
           <div className="text-center px-4">
@@ -79,7 +79,7 @@ function Containertwo() {
       {/* Second Row - 2 columns */}
       <div className="grid grid-cols-1 md:grid-cols-2 bg-white px-4 md:px-8 pt-10 md:pt-40 gap-8">
         <div className="flex flex-col items-center border-r-0 md:border-r-2 border-gray-300">
-          <div className="w-full max-w-[250px] md:w-[300px] h-[250px] md:h-[400px]">
+          <div className="w-full max-w-[250px] md:w-[300px] h-[350px] md:h-[400px]">
             <img className="bg-cover w-full h-full" src={pic5} alt="" />
           </div>
           <div className="text-center px-4">
@@ -96,7 +96,7 @@ function Containertwo() {
           </div>
         </div>
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-[250px] md:w-[300px] h-[250px] md:h-[400px]">
+          <div className="w-full max-w-[250px] md:w-[300px] h-[350px] md:h-[400px]">
             <img className="bg-cover w-full h-full" src={pic6} alt="" />
           </div>
           <div className="text-center px-4">
