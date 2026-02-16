@@ -57,7 +57,7 @@ function ContainerBox3() {
           </p>
         </div>
         <div className="order-1 lg:order-2  w-full max-w-[280px]  md:max-w-[350px] h-[400px] md:h-[500px] overflow-hidden">
-          <img className="w-full h-full object-cover" src={pic2} alt="" />
+          <img className="w-full h-full object-contain" src={pic2} alt="" />
         </div>
       </div>
 
