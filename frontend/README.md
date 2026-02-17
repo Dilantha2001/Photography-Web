@@ -1,12 +1,34 @@
-# React + Vite
+# Photography Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, modern photography portfolio and service website built with React and Vite. This project showcases photography galleries, journals, professional experience, and provides a contact interface for inquiries.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Framework:** [React 19](https://react.dev/)
+* **Build Tool:** [Vite 6](https://vitejs.dev/)
+* **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
+* **Routing:** [React Router DOM 7](https://reactrouter.com/)
+* **Fonts:** Custom configuration for `Noto Serif Display`
 
-## Expanding the ESLint configuration
+## 🗺️ Website Navigation (Routes)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application utilizes React Router to navigate between the following sections:
+
+* **`/`** - Home Page (`<Home />`)
+* **`/about`** - About Section (`<Containerfirst />`)
+* **`/experience`** - Experience Details (`<ExpereancePage />`)
+* **`/galleries`** - Photo Galleries (`<Containertwo />`)
+* **`/journal`** - Journal/Blog (`<Journal />`)
+* **`/portfolio`** - Portfolio View (`<PortfolioPage />` with Navigation and Footer)
+* **`/contact`** - Contact & Inquiries (`<ContactForm />`)
+
+## 🛠️ Getting Started
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1. Clone the repository and navigate to the frontend directory:
+   ```bash
+   cd frontend
