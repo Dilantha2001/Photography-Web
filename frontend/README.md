@@ -29,7 +29,7 @@
     <tr>
       <td align="center">
         <b>Hero & Homepage</b><br/>
-        <img src="frontend/src/assets/slide1.png" alt="Homepage Slide" width="400"/>
+        <img src="frontend/public/slide1.png" alt="Homepage Slide" width="400"/>
       </td>
       <td align="center">
         <b>Wedding Galleries</b><br/>
