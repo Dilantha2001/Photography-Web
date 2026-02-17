@@ -29,21 +29,21 @@
     <tr>
       <td align="center">
         <b>Hero & Homepage</b><br/>
-        <img src="frontend/src/assets/slide1.jpg" alt="Homepage Slide" width="400"/>
+        <img src="frontend/src/assets/slide1.png" alt="Homepage Slide" width="400"/>
       </td>
       <td align="center">
         <b>Wedding Galleries</b><br/>
-        <img src="frontend/src/assets/slide2.jpg" alt="Bride Gallery" width="400"/>
+        <img src="frontend/src/assets/slide2.png" alt="Bride Gallery" width="400"/>
       </td>
     </tr>
     <tr>
       <td align="center">
         <b>Couples & Portraits</b><br/>
-        <img src="frontend/src/assets/slide3.jpg" alt="Couple Portrait" width="400"/>
+        <img src="frontend/src/assets/slide3.png" alt="Couple Portrait" width="400"/>
       </td>
       <td align="center">
         <b>Corporate & Business</b><br/>
-        <img src="frontend/src/assets/slide4.jpg" alt="Business Photography" width="400"/>
+        <img src="frontend/src/assets/slide4.png" alt="Business Photography" width="400"/>
       </td>
     </tr>
   </table>
