@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/dilantha2001/photography-web/main/frontend/public/vite.svg" alt="Project Logo" width="80" height="80" />
+ 
 
   <h1 align="center">📸 Modern Photography Portfolio</h1>
 
@@ -10,7 +10,7 @@
     <a href="#-tech-stack"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="#">View Demo</a>
+    <a href="https://celebrated-bublanina-c05c98.netlify.app/">View Demo</a>
     ·
     <a href="#">Report Bug</a>
     ·
@@ -29,21 +29,21 @@
     <tr>
       <td align="center">
         <b>Hero & Homepage</b><br/>
-       <img src="frontend/public/slide1.png" alt="Homepage Slide" width="400"/>
+       <img src="./public/slide1.png" alt="Homepage Slide" width="400"/>
       </td>
       <td align="center">
         <b>Wedding Galleries</b><br/>
-        <img src="frontend/public/slide2.png" alt="Bride Gallery" width="400"/>
+        <img src="./public/slide2.png" alt="Bride Gallery" width="400"/>
       </td>
     </tr>
     <tr>
       <td align="center">
         <b>Couples & Portraits</b><br/>
-        <img src="frontend/public/slide3.png" alt="Couple Portrait" width="400"/>
+        <img src="./public/slide3.png" alt="Couple Portrait" width="400"/>
       </td>
       <td align="center">
         <b>Corporate & Business</b><br/>
-        <img src="frontend/public/slide4.png" alt="Business Photography" width="400"/>
+        <img src="./public/slide4.png" alt="Business Photography" width="400"/>
       </td>
     </tr>
   </table>
